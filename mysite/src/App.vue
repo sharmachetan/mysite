@@ -2,6 +2,7 @@
 <div>
  <Home/>
   <Interest/>
+  <Connect/>
 </div>
 </template>
 
@@ -9,11 +10,13 @@
 
 import Home from "@/views/Home.vue"
 import Interest from "@/views/Interest.vue"
+import Connect from "@/views/Connect.vue"
+
 
 
 export default {
   components:{
-    Home,Interest
+    Home,Interest,Connect
   }
 }
 </script>
