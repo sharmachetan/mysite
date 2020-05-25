@@ -12,9 +12,9 @@
     </div>
     <div id="connectLogo">
         <div id="connectLin">
-<img src="../assets/LinkedIn-Logos/linkedin.png"/></div>
-<div id="connectInsta">
-<img src="../assets/insta.png"/></div>
+<a  href="https://www.linkedin.com/in/sharmachetan6/" target="_blank"><img src="../assets/LinkedIn-Logos/linkedin.png"/></a></div>
+<div id="connectInsta"><a href="https://www.instagram.com/sharma_chetan9/" target="_blank">
+<img src="../assets/insta.png"/></a></div>
     </div>
 </div>
     
