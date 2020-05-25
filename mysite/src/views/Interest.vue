@@ -1,7 +1,7 @@
 <template>
   <div id="interestMain">
     <div id="intHeading">
-      <h4>>> Who 'I' am ?</h4>
+      <h4> Who 'I' am ?</h4>
     </div>
 
     <div id="intAboutContainer">
@@ -10,18 +10,20 @@
             <img src="../assets/myImg.jpeg"/>
         </div>
         <div id="intAboutContent">
-            <p>Welcome ,
                 <br><br>Few interesting facts about me<br>
-                <br># I am Chetan Sharma my friends call me 'Che .'
-                <br># I am a Progreammer ,Solution designer and a Full Stack Developer .
-                <br># I love to do outdoors like highking and bike rides .
-                <br># I love to travel different places ...right now I m in IRELAND   
-                <br># Disciplined Daily Meditiation practioner.
-                <br># I love to hear U2 and Aersosmith .
+                <ul>
+               <li>I am Chetan Sharma my friends call me 'Che .'</li>
+                <li>I am a Progreammer ,Solution designer and a Full Stack Developer .</li>
+               
+                <li>I love to do outdoors like highking and bike rides .</li>
+                <li>I love to travel different places ...right now I m in IRELAND   </li>
+                <li>Disciplined Daily Meditiation practioner.</li>
+                <li >I love to hear U2 and Aersosmith .</li>
                 <br>
-                <br> ......Comming next .....<br>
-                <br># Learing to become a Cybersecurity Engineer.
-                <br># Tring to find ways to date Margot Robbie . OOPS!</p>
+                ......Comming next .....<br>
+                <li>Learing to become a Cybersecurity Engineer.</li>
+                <li>Tring to find ways to date Margot Robbie . OOPS!</li>
+                 </ul>
         </div>
     </div>
 
@@ -36,6 +38,15 @@ export default {
 </script>
 
 <style scoped>
+
+@font-face {
+  font-family: 'Quattrocento';
+  src: url('../assets/QuattrocentoSans/QuattrocentoSans.eot'); /* IE9 Compat Modes */
+  src: url('../assets/QuattrocentoSans/QuattrocentoSans.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../assets/QuattrocentoSans/QuattrocentoSans.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../assets/QuattrocentoSans/QuattrocentoSans.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../assets/QuattrocentoSans/QuattrocentoSans.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
 @font-face {
   font-family: "SpecialElite";
   src: url("../assets/SpecialElite-Regular/SpecialElite-Regular.eot"); /* IE9 Compat Modes */
@@ -108,7 +119,7 @@ position: absolute;
     height: 350px;
     width: 70%;
     margin-left: 60px;
-    font-family: SpecialElite;
+    font-family: Quattrocento;
     /* background-color:rgb(31, 19, 15); */
     font-size: large;
 
