@@ -44,7 +44,6 @@
 
 <script>
 // @ is an alias to /src
-
 export default {
   name: "Home",
   components: {}
@@ -131,12 +130,5 @@ border-radius: 50%;
        url('../assets/QuattrocentoSans/QuattrocentoSans.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
-@font-face {
-  font-family: 'SpecialElite';
-  src: url('../assets/SpecialElite-Regular/SpecialElite-Regular.eot'); /* IE9 Compat Modes */
-  src: url('../assets/SpecialElite-Regular/SpecialElite-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../assets/SpecialElite-Regular/SpecialElite-Regular.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../assets/SpecialElite-Regular/SpecialElite-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../assets/SpecialElite-Regular/SpecialElite-Regular.svg') format('svg'); /* Legacy iOS */
-}
+
 </style>
