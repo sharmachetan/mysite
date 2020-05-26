@@ -2,23 +2,23 @@
   <div class="home">
     <div class="navBar">
       <div class="navOptions">
-        <a>
+        <a href="" @click.prevent="goToConnect('connectMain')">
           <h4>Connect</h4>
         </a>
       </div>
       <div class="navOptions">
         <h4>
-          <a>Interest</a>
+          <a href ="" @click.prevent="goToConnect('otherIntMain')">Belief</a>
         </h4>
       </div>
       <div class="navOptions">
         <h4>
-          <a>Work</a>
+          <a href="" @click.prevent="goToConnect('workMain')" >Work</a>
         </h4>
       </div>
       <div class="navOptions">
         <h4>
-          <a>About</a>
+          <a href="" @click.prevent="goToConnect('homeMain')">About</a>
         </h4>
       </div>
     </div>
@@ -46,7 +46,18 @@
 // @ is an alias to /src
 export default {
   name: "Home",
-  components: {}
+  components: {},
+  methods: {
+    goToConnect: function(divId) {
+      var elmnt = document.getElementById(divId);
+      elmnt.scrollIntoView().scrollTop -= 10;
+    }
+    //  ,
+    // goToWork:function() {
+    //     var elmnt = document.getElementById("workMain");
+    //   elmnt.scrollIntoView();
+    // }
+  }
 };
 </script>
 
@@ -92,43 +103,38 @@ export default {
   margin-top: 20px;
 }
 
-
-#bannerHeadingWelcome{
-    font-family: Quattrocento;
-
+#bannerHeadingWelcome {
+  font-family: Quattrocento;
 }
 
-#bannerUserName{
-      font-family: Quattrocento;
-      font-size: x-large;
-
-
+#bannerUserName {
+  font-family: Quattrocento;
+  font-size: x-large;
 }
-#bannerTagLine{
-    font-family: Quattrocento;
-    color: lightslategrey;
-    text-align: center;
-
+#bannerTagLine {
+  font-family: Quattrocento;
+  color: lightslategrey;
+  text-align: center;
 }
 #bannerImage img {
-display: block;
-margin: auto;
-width: 250px;
-height: 200px;
-border-radius: 50%;
-
+  display: block;
+  margin: auto;
+  width: 250px;
+  height: 200px;
+  border-radius: 50%;
 }
-
-
 
 @font-face {
-  font-family: 'Quattrocento';
-  src: url('../assets/QuattrocentoSans/QuattrocentoSans.eot'); /* IE9 Compat Modes */
-  src: url('../assets/QuattrocentoSans/QuattrocentoSans.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../assets/QuattrocentoSans/QuattrocentoSans.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../assets/QuattrocentoSans/QuattrocentoSans.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../assets/QuattrocentoSans/QuattrocentoSans.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-family: "Quattrocento";
+  src: url("../assets/QuattrocentoSans/QuattrocentoSans.eot"); /* IE9 Compat Modes */
+  src: url("../assets/QuattrocentoSans/QuattrocentoSans.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../assets/QuattrocentoSans/QuattrocentoSans.woff")
+      format("woff"),
+    /* Pretty Modern Browsers */
+      url("../assets/QuattrocentoSans/QuattrocentoSans.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+      url("../assets/QuattrocentoSans/QuattrocentoSans.svg#svgFontName")
+      format("svg"); /* Legacy iOS */
 }
-
-
 </style>

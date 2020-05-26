@@ -1,7 +1,7 @@
 <template>
-<div id="interestMain">
+<div id="connectMain">
     
-    <div id="intHeading">
+    <div id="connectHeading">
         <h3> Connect </h3>
     </div>
     <div id="connectContent">
@@ -16,6 +16,8 @@
 <div id="connectInsta"><a href="https://www.instagram.com/sharma_chetan9/" target="_blank">
 <img src="../assets/insta.png"/></a></div>
     </div>
+
+
 </div>
     
 </template>
@@ -45,17 +47,17 @@
       format("svg"); /* Legacy iOS */
 }
 
-#interestMain {
+#connectMain {
   position: relative;
   width: 100%;
-  height: 500px;
+  height: 550px;
   margin: 0px;
   /* background-color: burlywood; */
       /* background-color: rgb(194, 219, 52); */
 
 
 }
-#intHeading {
+#connectHeading {
     display: block;
   font-family: "SpecialElite";
   font-size: 40px;
@@ -101,6 +103,8 @@ height:fit-content;
 margin:20px;
 
 }
+
+
 
 </style>
 <script>
