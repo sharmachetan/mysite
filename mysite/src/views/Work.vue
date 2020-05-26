@@ -30,11 +30,10 @@
         <h4>GreyOrange Pte</h4>
         <h5>Professional Services Engineer, May 2018 - Aug 2019</h5>
         <h6>Gurgaon, India</h6>
-        <p>University of Limerick provided me the exposure as expected. I learned various
-            cybersecurity fields like Data Forensic, Web Security and Network Security Protocal 
-            manifestation.My 1 year stay at UL is amazing which because of a wonderful and diverse society.<br>
+        <p><a href="https://www.greyorange.com/">GreyOrange</a> is a leading warehouse logistic automation company in India. Its sole motive is to 
+          ease warehouse storing and retrievel through small bots called 'Butler'. The platform in based on <b><i>Mircroservices</i></b><br>
             <br>
-            My favorite topic is Health Care security
+           I was responsible for Client Integration with <a href="https://www.xpo.com/">XPO logistics</a> and  and developing microserces in JAVA & PYTHON
             </p>
       </div>
       <div></div>
@@ -48,11 +47,14 @@
         <h4>FoodGym</h4>
         <h5>Founder, Nov 2017 - April 2018</h5>
         <h6>Delhi, India</h6>
-        <p>University of Limerick provided me the exposure as expected. I learned various
-            cybersecurity fields like Data Forensic, Web Security and Network Security Protocal 
-            manifestation.My 1 year stay at UL is amazing which because of a wonderful and diverse society.<br>
+        <p>I founded this Cloud Kitchen with a vision to solve ongoing healthy diet problem with sports athletes.
+          Android and web platform was used to connect with Clients .We deliver meals according to the schedule 
+          made by them.
+          <br>
+        
             <br>
-            My favorite topic is Health Care security
+            This ventur helped me learn various aspects of carrying out a boot-strapped project like Team Work, 
+            Break-Even decision and customer expections .
             </p>
       </div>
       <div></div>
@@ -64,13 +66,14 @@
       </div>
       <div class="workDesc">
         <h4>Computer Sciences Corporation</h4>
-        <h5>Software Developer, oct 2015 - Dec 2017</h5>
+        <h5>Software Developer, Oct 2015 - Dec 2017</h5>
         <h6>Noida, India</h6>
-        <p>University of Limerick provided me the exposure as expected. I learned various
-            cybersecurity fields like Data Forensic, Web Security and Network Security Protocal 
-            manifestation.My 1 year stay at UL is amazing which because of a wonderful and diverse society.<br>
-            <br>
-            My favorite topic is Health Care security
+        <p> CSC is a American multinational corporation spread in many bussiness verticals like Healthcare, Insurance,
+          Banking, Aerospace and many more. I worked in Insurance Domain as a JAVA developer for Client side 
+          over JSP ,REST and Mainframes Z/OS 360 .During my stay I was responsible for 
+          for leading a team of 4 inters under <span><b>COIN</b></span> program.<br><br>
+
+          After merger of CSC and HP it become <a href="https://www.dxc.technology/">DXC Technology </a>
             </p>
       </div>
       <div></div>

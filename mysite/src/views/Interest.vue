@@ -10,19 +10,19 @@
             <img src="../assets/myImg.jpeg"/>
         </div>
         <div id="intAboutContent">
-                <br><br>Few interesting facts about me<br>
+                <br><h2>Few interesting facts about me</h2><br>
                 <ul>
-               <li>I am Chetan Sharma my friends call me 'Che .'</li>
-                <li>I am a Progreammer ,Solution designer and a Full Stack Developer .</li>
+               <li>I am Chetan Sharma my friends call me <b><i>'Che .'</i></b></li>
+                <li>I am a Programmer ,Solution designer and a <b>Full Stack Developer</b>.</li>
                
                 <li>I love to do outdoors like highking and bike rides .</li>
-                <li>I love to travel different places ...right now I m in IRELAND   </li>
+                <li>I love to travel different places ...right now I m in <b>IRELAND</b>   </li>
                 <li>Disciplined Daily Meditiation practioner.</li>
                 <li >I love to hear U2 and Aersosmith .</li>
                 <br>
                 ......Comming next .....<br>
                 <li>Learing to become a Cybersecurity Engineer.</li>
-                <li>Tring to find ways to date Margot Robbie . OOPS!</li>
+                <li><i>Tring to find ways to date Margot Robbie . OOPS!</i></li>
                  </ul>
         </div>
     </div>
@@ -38,6 +38,8 @@ export default {
 </script>
 
 <style scoped>
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 
 @font-face {
   font-family: 'Quattrocento';
@@ -66,10 +68,10 @@ export default {
 #interestMain {
   position: relative;
   width: 100%;
-  height: 500px;
-  margin: 0px;
+  height: 600px;
+  margin-top: 50px;
   /* background-color: burlywood; */
-      background-color: rgb(245, 242, 247);
+      /* background-color: rgb(245, 242, 247); */
 
 
 }
@@ -79,6 +81,7 @@ export default {
   font-size: 40px;
   width: fit-content;
   margin-left: 40px;
+  margin-top: 20px;
   color: #032a66;
 }
 
@@ -123,5 +126,9 @@ position: absolute;
     /* background-color:rgb(31, 19, 15); */
     font-size: large;
 
+}
+#intAboutContent h2 {
+  font-family: 'Chelsea Market', cursive;
+  color: rgb(192, 5, 5);
 }
 </style>

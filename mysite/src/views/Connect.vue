@@ -99,7 +99,7 @@ margin:20px;
     display: inline-block;
 
 width:100px;
-height:fit-content;
+height:80px;
 margin:20px;
 
 }

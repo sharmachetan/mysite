@@ -18,7 +18,7 @@
       </div>
       <div class="navOptions">
         <h4>
-          <a href="" @click.prevent="goToConnect('homeMain')">About</a>
+          <a href="" @click.prevent="goToConnect('interestMain')">About</a>
         </h4>
       </div>
     </div>
@@ -50,7 +50,7 @@ export default {
   methods: {
     goToConnect: function(divId) {
       var elmnt = document.getElementById(divId);
-      elmnt.scrollIntoView().scrollTop -= 10;
+      elmnt.scrollIntoView().scrollTop += 10;
     }
     //  ,
     // goToWork:function() {
@@ -65,7 +65,7 @@ export default {
 .home {
   position: relative;
   /* background-color: black; */
-  height: 500px;
+  height: 550px;
   width: 100%;
 }
 

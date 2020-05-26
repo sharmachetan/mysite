@@ -44,7 +44,7 @@ export default {
   font-size: 40px;
   width: fit-content;
   margin-left: 40px;
-  color: white;
+  color:white;
 }
 
 #believeList {
