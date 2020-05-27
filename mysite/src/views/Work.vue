@@ -159,4 +159,90 @@ font-weight: bold;}
     color: grey;
 
 }
+
+
+
+
+/* Mobiel Version  */
+@media screen and (max-width: 400px) and (min-width: 200px) {
+
+#workMain {
+  display: block;
+  position: static;
+  width: 100%;
+  height: 2500px;
+  margin: 0px;
+  /* background-color: burlywood; */
+  /* background-color: rgb(194, 219, 52); */
+}
+#workHeading {
+  display: block;
+  position: relative;
+  font-family: "SpecialElite";
+  font-size: 40px;
+  width: fit-content;
+  margin-left: 50px;
+  color: #032a66;
+}
+
+.workContainer {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: aqua; */
+  width: 100%;
+  height: 600px;
+    overflow: hidden;
+
+}
+.companyImage {
+  display: block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  /* background-color: blue; */
+  margin-left:auto;
+  margin-right: auto;
+  border-radius: 5%;
+  overflow: hidden;
+}
+.workDesc {
+  display: block;
+  position: relative;
+  float: inline-end;
+     width: 100%;
+
+  height: 200px;
+margin-left: auto;
+margin-right: auto;  /* background-color: rgb(233, 199, 10); */
+}
+.workDesc h4,h5,h6 {
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 4px;
+    font-family: Quattrocento;
+    font-weight: lighter;
+}
+.workDesc h4 {
+    color: rgb(68, 136, 0);
+font-weight: bold;}
+.workDesc h5 {
+     color: rgb(180, 25, 25);
+font-weight: lighter;}
+
+.workDesc h6 {
+     color: rgb(12, 11, 11);
+font-weight: bold;}
+.workDesc p {
+    font-family: Quattrocento;
+    font-weight: lighter;
+    font-size: 16px;
+    color: grey;
+
+}
+
+}
+
 </style>
