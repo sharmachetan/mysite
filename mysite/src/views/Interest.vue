@@ -131,4 +131,96 @@ position: absolute;
   font-family: 'Chelsea Market', cursive;
   color: rgb(192, 5, 5);
 }
+
+
+/* Mobile Version */
+
+@media screen and (max-width: 400px) and (min-width: 200px) {
+
+  #interestMain {
+  position: relative;
+  width: 100%;
+  height: 1000px;
+  margin-top: 50px;
+  /* background-color: burlywood; */
+      /* background-color: rgb(245, 242, 247); */
+
+
+}
+#intHeading {
+  position: static;
+    display: block;
+  font-family: "SpecialElite";
+  font-size: 40px;
+  width: fit-content;
+  margin-left: 40px;
+  margin-top: 20px;
+  /* color: #032a66; */
+    color:black;
+
+}
+
+#intAboutContainer {
+position: static;
+    display: inline-block;
+    height: 380px;
+    overflow: hidden;
+    width: inherit;
+    /* background-color: rgb(245, 236, 248); */
+}
+
+#intAboutImg {
+position: relative;
+    display: block;
+    height: 350px;
+    width: fit-content;
+margin-left: auto;
+margin-right: auto;
+
+    margin-top: 20px;
+      background-color:rgb(10, 10, 10);
+      border-radius: 10px;
+      overflow: hidden;
+
+}
+
+#intAboutImg img {
+display: block;
+
+
+
+
+}
+
+#intAboutContent {
+position: absolute;
+    display: block;
+    height: 350px;
+    width: 70%;
+    margin-left: 10px;
+    font-family: Quattrocento;
+    /* background-color:rgb(31, 19, 15); */
+    font-size: medium;
+
+}
+#intAboutContent h2 {
+  font-family: 'Chelsea Market', cursive;
+  color: rgb(192, 5, 5);
+  font-size: 30px;
+}
+  
+#intAboutContent ul {
+  margin: 5px;
+}
+
+#intAboutContent ul li {
+  margin: 0px;
+  font-size: smaller;
+  width: 340px;
+}
+}
+
+
+
+
 </style>
