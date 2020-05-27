@@ -16,7 +16,7 @@
                 <li>I am a Programmer ,Solution designer and a <b>Full Stack Developer</b>.</li>
                
                 <li>I love to do outdoors like highking and bike rides .</li>
-                <li>I love to travel different places ...right now I m in <b>IRELAND</b>   </li>
+                <li>I love to travel different places ...now I m in <b>IRELAND</b>   </li>
                 <li>Disciplined Daily Meditiation practioner.</li>
                 <li >I love to hear U2 and Aersosmith .</li>
                 <br>
@@ -211,6 +211,7 @@ position: absolute;
   
 #intAboutContent ul {
   margin: 5px;
+  padding: 0px;
 }
 
 #intAboutContent ul li {
