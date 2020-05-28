@@ -15,12 +15,12 @@
                <li>I am Chetan Sharma my friends call me <b><i>'Che .'</i></b></li>
                 <li>I am a Programmer ,Solution designer and a <b>Full Stack Developer</b>.</li>
                
-                <li>I love to do outdoors like highking and bike rides .</li>
+                <li>I love to do outdoors like hiking and bike rides .</li>
                 <li>I love to travel different places ...now I m in <b>IRELAND</b>   </li>
-                <li>Disciplined Daily Meditiation practioner.</li>
+                <li>A Disciplined Daily Meditiation practitioner.</li>
                 <li >I love to hear U2 and Aersosmith .</li>
                 <br>
-                ......Comming next .....<br>
+                ......Coming next .....<br>
                 <li>Learing to become a Cybersecurity Engineer.</li>
                 <li><i>Tring to find ways to date Margot Robbie . OOPS!</i></li>
                  </ul>
@@ -155,8 +155,8 @@ position: absolute;
   width: fit-content;
   margin-left: 40px;
   margin-top: 20px;
-  /* color: #032a66; */
-    color:black;
+  color: #032a66;
+    /* color:black; */
 
 }
 
