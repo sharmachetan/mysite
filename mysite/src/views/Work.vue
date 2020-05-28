@@ -164,7 +164,7 @@ font-weight: bold;}
 
 
 /* Mobiel Version  */
-@media screen and (max-width: 400px) and (min-width: 200px) {
+@media screen and (max-width: 450px) and (min-width: 200px) {
 
 #workMain {
   display: block;

@@ -25,7 +25,7 @@ import OtherInterest from "@/views/OtherInterest.vue"
 export default {
   components:{
     Home,Interest,Connect,Work,OtherInterest
-  },meta:{metaTags:[
+  },meta:{title:'Chetan Sharma',metaTags:[
 
     {name:'viewport',content:'width=device-width, initial-scale=1.0'}
   ]}
