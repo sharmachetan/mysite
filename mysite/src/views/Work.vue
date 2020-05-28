@@ -54,7 +54,7 @@
         
             <br>
             This ventur helped me learn various aspects of carrying out a boot-strapped project like Team Work, 
-            Break-Even decision and customer expections .
+            Break-Even decision and customer expectations .
             </p>
       </div>
       <div></div>

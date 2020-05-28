@@ -7,7 +7,7 @@
     <div id="believeList">
         <h2>CUSTOMER FIRST</h2>
         <h2>CHANGE IS INEVITABLE</h2> 
-        <h2>GET THE JOB DONE AND BE RELETLESS</h2>
+        <h2>GET THE JOB DONE AND BE RELENTLESS</h2>
        <h2> NEVER STOP LEARNING</h2>
               <h2> PLAN AGGRESIVELY</h2>
 
