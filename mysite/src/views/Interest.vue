@@ -22,7 +22,7 @@
                 <br>
                 ......Coming next .....<br>
                 <li>Learing to become a Cybersecurity Engineer.</li>
-                <li><i>Tring to find ways to date Margot Robbie . OOPS!</i></li>
+                <li><i>Trying to find ways to date Margot Robbie . OOPS!</i></li>
                  </ul>
         </div>
     </div>
